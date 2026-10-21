@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>QuorumGlass — compare the whole ranking</title><link rel="stylesheet" href="styles.css"></head>
+<body><header><strong>QuorumGlass</strong><span>Decide with the whole ranking.</span></header>
+<main><h1>One group. Three ways to count.</h1><p class="intro">Compare choices before calling a winner.</p>
+<div class="workspace"><section class="ballots"><h2>Ballot groups</h2><p id="help">One row per shared ranking. Use A, B, C in preference order.</p>
+<dl><div><dt>A</dt><dd>Workshop</dd></div><div><dt>B</dt><dd>Movie night</dd></div><div><dt>C</dt><dd>Picnic</dd></div></dl>
+<label class="sr" for="ballots">Ballot groups: count followed by complete ranking</label><textarea id="ballots" aria-describedby="help" spellcheck="false">4 A B C
+3 B C A
+2 C B A</textarea><p id="count">9 ballots</p><p id="error" role="alert" hidden></p>
+<button id="compare" class="primary">Compare rankings</button><div class="actions"><button id="cycle">Load cycle example</button><button id="export">Export audit</button></div></section>
+<section class="results" aria-live="polite"><h2>What changes with the rule?</h2><div id="summary"></div><h2 class="table-title">Head-to-head votes</h2><table id="matrix" aria-label="Ballots preferring the row candidate to the column candidate"></table>
+<p class="limit">A different counting rule can change the outcome. This lab does not certify an election.</p>
+<details><summary>Counting policy and round audit</summary><p>Complete rankings only. A strict majority is more than half the ballots. Ranked choice eliminates a unique lowest candidate; an elimination tie remains unresolved. No hidden alphabetical tie-break. Pairwise means a candidate beats every other choice directly. No such candidate may exist.</p><pre id="audit"></pre></details></section></div>
+<footer>Local educational prototype. No voter identities, accounts, server tally or certified election workflow. AI-assisted code and design; synthetic examples.</footer></main><script type="module" src="app.mjs"></script></body></html>
