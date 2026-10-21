@@ -18,7 +18,9 @@ AI assistance: OpenAI Codex generated implementation, tests, explanations and de
 
 ## Current state
 
-Source publication: https://github.com/estona815/quorumglass-nextspark-2026 . Live-demo deployment is being prepared. This project has not been submitted to NextSpark.
+Try the live demo: https://estona815.github.io/quorumglass-nextspark-2026/
+
+Source: https://github.com/estona815/quorumglass-nextspark-2026 . This project has not been submitted to NextSpark.
 
 The six engine tests pass. A separate expanded-ballot reference matched instant-runoff results on all 46,655 profiles with each of the six ranking counts from 0 through 5 (excluding the empty profile). Desktop/mobile browser captures and a downloaded audit JSON have been checked. Independent review covers calculation and static code, not a complete contest package approval.
 
