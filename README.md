@@ -4,7 +4,9 @@ A local educational tool for student clubs to compare plurality, instant-runoff 
 
 ## Run
 
-No packages, API, build step or paid service. Run `python3 -m http.server 8841` in this directory and open `http://localhost:8841`. Tests: `node --test engine.test.mjs`.
+No packages, API, build step or paid service. Run `python3 -m http.server 8841` in this directory and open `http://localhost:8841`.
+
+Run the engine tests with `node --test engine.test.mjs`. Reproduce the separate 46,655-profile expanded-ballot instant-runoff verification with `node reference-irv.mjs`. This reference uses individual ballots rather than the production weighted tally and also checks the four input boundaries described below. Both commands use only Node built-in modules.
 
 Each line is a positive integer count and a complete ordering of A B C. At most 100 groups and 1,000,000 ballots. The fixed options are fictional student-club activities. Use Compare rankings, inspect the head-to-head matrix and round audit, load the cycle example, and export the reproducible JSON calculation.
 
