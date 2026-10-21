@@ -26,4 +26,8 @@ Source: https://github.com/estona815/quorumglass-nextspark-2026 . This project h
 
 The six engine tests pass. A separate expanded-ballot reference matched instant-runoff results on all 46,655 profiles with each of the six ranking counts from 0 through 5 (excluding the empty profile). Desktop/mobile browser captures and a downloaded audit JSON have been checked. Independent review covers calculation and static code, not a complete contest package approval.
 
-Devpost gallery attachment, the required 1–3 minute demo video, and final submission review remain pending. No video or public user study is claimed.
+Watch the 90-second demo: https://youtu.be/wZ1bor-WDOQ
+
+The video is unlisted and uses actual captured working UI states edited into a silent English-captioned walkthrough; it is not a real-time screen recording. It shows the default calculation, round audit, cyclic preferences, invalid input and JSON export. Source video: H.264, 1280×720, 24 fps, 90 seconds. The public watch page was verified to play the 720p video.
+
+NextSpark solo registration is complete. Devpost project creation, gallery attachment, saved-package review and final submission remain pending. No contest receipt or public user study is claimed.
